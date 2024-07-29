@@ -92,7 +92,17 @@ li:hover {
     transform: translateX(5px);
 }
 
-li button {
+li button.edit {
+    background: #28a745; /* Green color */
+    color: #ffffff;
+    margin-right: 8px; /* Space between Edit and Delete buttons */
+}
+
+li button.edit:hover {
+    background: #218838; /* Darker green on hover */
+}
+
+li button.delete {
     background: #dc3545;
     color: #ffffff;
     border: none;
@@ -102,7 +112,7 @@ li button {
     transition: background-color 0.3s ease;
 }
 
-li button:hover {
+li button.delete:hover {
     background: #c82333;
 }
 
